@@ -1,0 +1,116 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #f8f9fa;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffdd57;
+}
+
+/* Hero Section */
+.group1 {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  background-color: #333;
+  color: #f8f9fa;
+  text-align: left;
+}
+
+.group1 h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.group1 .btn {
+  font-size: 1rem;
+}
+
+/* Section: Why Choose Us */
+#section2 {
+  padding: 3rem 0;
+  background-color: #f8f9fa;
+}
+
+#section2 h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#section2 p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Testimonials Section */
+#section5 {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+#section5 .carousel-item h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#section5 .carousel-item p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+#section5 .carousel-item img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn.bg-warning {
+  background-color: #ffdd57 !important;
+  border-color: #ffdd57;
+}
+
+.btn.bg-warning:hover {
+  background-color: #e5c74a !important;
+}

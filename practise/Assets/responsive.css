@@ -1,0 +1,53 @@
+/* Small Devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+
+  /* Hero Section */
+  .group1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .group1 .btn {
+    font-size: 0.9rem;
+  }
+
+  /* Section: Why Choose Us */
+  #section2 h3 {
+    font-size: 1.75rem;
+  }
+
+  /* Testimonials Section */
+  #section5 .carousel-item h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Extra Small Devices (phones, 576px and down) */
+@media (max-width: 576px) {
+  /* Navbar adjustments */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  /* Hero Section */
+  .group1 h1 {
+    font-size: 2rem;
+  }
+
+  .group1 .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Footer */
+  footer p {
+    font-size: 0.8rem;
+  }
+}

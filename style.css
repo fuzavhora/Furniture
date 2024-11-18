@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  background-color: #EFF2F1;
+  width: 100%;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+p, li{
+  color: gray ;
+}
+
+.middle{
+  width: 80%;
+  margin: 0 auto;
+}
+
+header, nav{
+  background-color: #33684b;
+}
+
+header .group1 h1{
+  font-size: 3vw;
+}
+/* .active{
+  font-weight: 700 !important;
+  border-bottom: 2px solid yellow;
+} */
+
+header .group1{
+  padding:100px 0 50px 0;
+}
+
+#section1 .group2 img{
+  top: -90px;
+}
+#section1 .group4 img, #section1 .group3 img{
+  top: -15%;
+}
+#section1 .group2 .icon{
+  bottom: -8%;
+}
+
+#section3 .last-box img{
+  left: -32%;
+  width: 132%;
+  /* padding-left: -10%; */
+  bottom: -5%;
+}
+
+#section4 .group1{
+   background: #35736E4D;
+  
+}
+
+#section4 .group1 img{
+  top: -13%;
+}
+#section4 .sec-box .group1 img{
+  width: 110%;
+  right: -7%;
+}
+.third-box img{
+  left: 6%;
+  width: 85%;
+}
+
+.carousel-item p{
+  text-align: justify;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  top: -45% !important;
+}
+
+
+.carousel-control-next-icon{
+  background-color: #385D50 !important;
+  filter: none !important;
+}
+.carousel-control-prev{
+  position: absolute;
+  left: -10%;
+}
+.carousel-control-next{
+  position: absolute;
+  right: -10%;
+}
+
+#section7, footer{
+  background-color: white;
+}
+
+#section7 .btn{
+  background-color: #35736E !important;
+}
+
+.sofa img{
+  right: 0px;
+  top: -120%;
+}
+
+footer{
+  padding-top: 100px;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer .icon{
+  background-color: #D9D9D9;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
